@@ -6,6 +6,8 @@ const webpackManifestPlugin = require("webpack-manifest-plugin");
 module.exports = {
     entry: {
         index : './src/app/index.js',
+        ceshi : './src/ceshi/index.js',
+        learn : './src/immutable/index.js'
     },
     output: {
         path: __dirname,

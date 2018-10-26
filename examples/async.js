@@ -13,7 +13,7 @@ const Fetch = (store={
 }, action)=>{
     // 使用 promise 中间件，会自动发送 type_PEDDING type_FULFILLED type_REJECTED 三种 dispatch，只有 payload 里的 promise 才会被解释。
     switch (action.type) {
-        case("fetch_PENDING"):
+        case("9"):
             store = {...store, fetching: true, fetched: false};
             break;
         case("fetch_FULFILLED"):

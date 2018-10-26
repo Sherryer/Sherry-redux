@@ -1,3 +1,5 @@
 {
-  "index.js": "./dist/index.js"
+  "ceshi.js": "./dist/ceshi.js",
+  "index.js": "./dist/index.js",
+  "learn.js": "./dist/learn.js"
 }

@@ -1,4 +1,4 @@
-import {applyMiddleware ,createStore} from 'redux'
+import {applyMiddleware, createStore} from 'redux'
 import reducers from './reducers/index'
 import promise from 'redux-promise-middleware'
 import logger from 'redux-logger'

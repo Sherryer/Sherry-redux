@@ -4,7 +4,7 @@ import {addTip} from '../actions/index'
 import { TodoList, DoneList } from './Lists'
 
 
-@connect((store) =>({}),({onClick: addTip}))
+@connect((store) =>({}), ({onClick: addTip}))
 export default class List extends Component{
     render(){
         let input;

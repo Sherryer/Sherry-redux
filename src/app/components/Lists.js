@@ -13,13 +13,11 @@ const doList = ({value, onClick}) => {
 const togo = {
     onClick: toggleDone
 };
-export const DoneList = connect((store)=>{
-    return ({
+export const DoneList = connect((store) => ({
         value: store.todolist.filter(value => value.done)
     })
-}, togo)(doList);
-export const TodoList = connect((store)=>{
-    return ({
+, togo)(doList);
+export const TodoList = connect((store) => ({
         value: store.todolist.filter(value => !value.done)
     })
-}, togo)(doList);
+, togo)(doList);
